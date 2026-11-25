@@ -8,7 +8,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 var(--sans); }
 img { max-width: 100%; height: auto; display: block; border-radius: var(--radius); }
 a { color: var(--link); }
@@ -131,3 +131,8 @@ footer { padding-top: 2rem; padding-bottom: 3rem; font-size: .85rem; color: var(
 
 /* Imagens com fundo transparente: sem cantos arredondados */
 img.cutout { border-radius: 0; }
+
+/* Imagem e legenda centralizadas */
+figure.centered { text-align: center; }
+figure.centered img { margin-left: auto; margin-right: auto; }
+.wide.centered { margin-left: auto; margin-right: auto; }
