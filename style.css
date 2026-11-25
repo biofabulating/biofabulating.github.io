@@ -97,7 +97,7 @@ figure { margin: 0; }
 
 /* ===== ORGANIZADORES ===== */
 .people { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem 2.5rem; }
-.person { display: flex; gap: 1rem; align-items: flex-start; }
+.person { border-top: 1px dashed var(--muted); padding-top: 1rem; }
 .avatar { flex: none; width: 72px; height: 72px; border-radius: 50%; object-fit: cover;
   display: grid; place-items: center; background: var(--sea-light); color: var(--sea); font-weight: 600; }
 .person h3 { margin: 0 0 .3rem; font-size: 1.1rem; }
