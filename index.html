@@ -7,7 +7,7 @@
   <meta name="description" content="TEI '27 Studio, 24 January 2027, BioLab Lisboa. Sensing, making and storytelling with biomatter from Lisbon's estuaries.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
     <section class="hero">
       <div class="hero-text">
         <p class="eyebrow">TEI '27 Studio · Lisbon</p>
-        <h1>BioFabulating Urban Waters</h1>
+        <h1 class="logo"><span>BioFabulating</span> <span>Urban Waters</span></h1>
         <p class="subtitle">Sensing, Making and Storytelling with Biomatter</p>
         <p class="facts">24 January 2027 · 9:00–17:00 · BioLab Lisboa · 16 places, in person</p>
         <a class="button" href="#apply">Apply to participate</a>
@@ -53,7 +53,7 @@
           <p class="note">No prior knowledge of biomaterials is required.</p>
         </div>
         <figure>
-          <img src="images/pillars.png" alt="Venn diagram: fabulation as a method, making with biomatter, and tangible interaction">
+          <img class="cutout" src="images/pillars.png" alt="Venn diagram: fabulation as a method, making with biomatter, and tangible interaction">
           <figcaption>The studio explores the convergence of three pillars.</figcaption>
         </figure>
       </div>
@@ -89,6 +89,17 @@
             src="https://www.google.com/maps?q=Mercado+Forno+do+Tijolo,+Rua+Maria+da+Fonte,+1170-221+Lisboa&output=embed"></iframe>
         </div>
       </div>
+
+      <div class="gallery even">
+        <figure>
+          <img src="images/biolab-space.jpg" alt="The open workshop space of BioLab Lisboa, with tables, tools and the BioLab Lisboa sign on the wall">
+          <figcaption>The makerspace at BioLab Lisboa.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/biolab-lab.jpg" alt="The wet lab at BioLab Lisboa, with benches, hot plates and lab equipment">
+          <figcaption>The wet lab at BioLab Lisboa.</figcaption>
+        </figure>
+      </div>
     </section>
 
     <!-- ===== 03 PROGRAMME: AS CINCO ETAPAS + HORÁRIO ===== -->
@@ -96,31 +107,32 @@
       <h2><span>03</span> Programme</h2>
       <p class="lead">The day unfolds in five stages, moving from sensing raw biomatter to imagining interactive artefacts.</p>
 
-      <ol class="stages">
-        <li>
-          <h3>Encounter</h3>
+      <!-- Lista que abre e fecha: cada <details> é um item. Clique no título para abrir. -->
+      <div class="accordion">
+        <details>
+          <summary><span class="num">01</span><span class="title">Encounter</span><span class="time">09:00–09:30</span><span class="icon" aria-hidden="true"></span></summary>
           <p>An introduction to (once-living) biomatter and its ecological backgrounds: the Tagus and Sado estuaries, their bioregional practices and ecologies, and non-extractive sourcing. Touch, smell and sense the raw biomatter, and handle prepared biomaterial samples.</p>
-        </li>
-        <li>
-          <h3>Make</h3>
+        </details>
+        <details>
+          <summary><span class="num">02</span><span class="title">Make</span><span class="time">09:30–12:00</span><span class="icon" aria-hidden="true"></span></summary>
           <p>In groups, prepare a few carefully selected biomaterial recipes using ethically sourced, pre-prepared ingredients.</p>
-        </li>
-        <li>
-          <h3>Fabulate</h3>
+        </details>
+        <details>
+          <summary><span class="num">03</span><span class="title">Fabulate</span><span class="time">13:00–15:00</span><span class="icon" aria-hidden="true"></span></summary>
           <p>With ideation prompt cards, learn ecological, historical and cultural facts about the once-living matter behind each biomaterial, and shift between human and more-than-human perspectives to build speculative narratives.</p>
-        </li>
-        <li>
-          <h3>Ideate</h3>
+        </details>
+        <details>
+          <summary><span class="num">04</span><span class="title">Ideate</span><span class="time">13:00–15:00</span><span class="icon" aria-hidden="true"></span></summary>
           <p>Develop speculative concepts for tangible or embedded artefacts that connect material presence, ecological context and interactive storytelling. The focus is on concepts, not fully functional prototypes.</p>
-        </li>
-        <li>
-          <h3>Share</h3>
+        </details>
+        <details>
+          <summary><span class="num">05</span><span class="title">Share</span><span class="time">15:30–16:30</span><span class="icon" aria-hidden="true"></span></summary>
           <p>Groups present their artefacts and fabulations, followed by an open discussion on how making with situated biomatter can shape our understandings of sustainability, computation and material agency.</p>
-        </li>
-      </ol>
+        </details>
+      </div>
 
       <figure class="wide">
-        <img src="images/prompt-cards.jpg" alt="Two ideation prompt cards, one about seaweed and one about oysters, with facts and questions">
+        <img class="cutout" src="images/prompt-cards.png" alt="Two ideation prompt cards, one about seaweed and one about oysters, with facts and questions">
         <figcaption>Examples of the ideation prompt cards used during the studio.</figcaption>
       </figure>
 
