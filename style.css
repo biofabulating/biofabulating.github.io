@@ -2,7 +2,7 @@
 :root {
   --bg: #EBFFF6; --paper: #f8fffb; --ink: #291528; --muted: #55505a;
   --sea: #2F5A3C; --sea-light: #CDEFDF; --line: #cde3d8; --link: #1F5FD1;
-  --grad-top: #303E14; --grad-mid: #2E6B57; --grad-bottom: #256EFF;
+  --grad-top: #303E14; --grad-mid: #2B5E5A; --grad-bottom: #1D4FB8;
   --radius: 16px;        /* cantos arredondados das imagens */
   --serif: "Fraunces", Georgia, serif; --sans: "Inter", system-ui, sans-serif;
 }
